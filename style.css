@@ -43,12 +43,16 @@ p {
   font-family: Nunito Sans;
   font-size: 14px;
 }
-.main {
+.slider-nav {
+  margin-top: -20px;
+  margin-bottom: 40px;
+}
+.slider-main {
   width: 1171px;
   display: flex;
-  margin: 107px 110px 123px 134px;
+  margin: auto;
 }
-.main_1 {
+.slider-main_text {
   width: 442px;
   height: 390px;
 }
@@ -83,7 +87,7 @@ p {
 
   margin: 55px 0px 0px 180px;
 }
-.pagination-circle {
+.slider-dots {
   display: flex;
   flex-direction: row;
   width: 10px;
@@ -92,7 +96,7 @@ p {
   border-radius: 50%;
   gap: 5px;
 }
-#top {
+.slider-main_buttons {
   display: flex;
   gap: 15px;
 }
@@ -103,22 +107,6 @@ p {
 .active {
   background-color: rgb(126, 126, 126);
 }
-.main_2 {
+.slider-main_img {
   margin-left: 50px;
-}
-
-#body_1 :target {
-  display: block;
-}
-#body_2 {
-  display: none;
-}
-#body_2 :target {
-  display: block;
-}
-#body_3 {
-  display: none;
-}
-#body_3 :target {
-  display: block;
 }

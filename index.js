@@ -1,8 +1,8 @@
-const slider = document.getElementById("slider");
-const arrowLeft = document.querySelector(".arrow-left");
-const arrowRight = document.querySelector(".arrow-right");
-const slides = document.querySelectorAll(".slider-in");
-const bottom = document.getElementById("bottom");
+const slider = document.querySelector("slider-container");
+const arrowLeft = document.querySelector(".prev-button");
+const arrowRight = document.querySelector(".nextButton");
+const slides = document.querySelectorAll(".slider-dots");
+const bottom = document.querySelector("slider-main_buttons");
 
 let currentSlideIndex = 0;
 const paginationCircles = [];
